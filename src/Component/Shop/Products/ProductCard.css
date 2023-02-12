@@ -2,6 +2,9 @@
   display: none;
   transition: all 100ms;
 }
+img{
+  cursor: pointer;
+}
 .card:hover .image2 {
   display: block;
   animation-name: imageChange;

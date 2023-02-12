@@ -2,7 +2,7 @@ import React from "react";
 
 const Breadcrumb = () => {
   return (
-    <nav className="rounded-md w-full mt-[15px] mb-10">
+    <nav className="rounded-md w-full mt-[15px] mb-10 px-2">
       <ol className="list-reset flex text-[0.65rem]">
         <li>
           <a href="/" className="text-blue-600 hover:text-blue-700">

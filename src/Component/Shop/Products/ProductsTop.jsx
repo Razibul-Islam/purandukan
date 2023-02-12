@@ -5,7 +5,7 @@ import { FaListUl } from "react-icons/fa";
 const ProductsTop = () => {
   return (
     <div className="border-t border-[#ededed]">
-      <div className="py-[25px] flex items-center justify-between">
+      <div className="py-[25px] flex items-center justify-between flex-wrap">
         <div className="flex">
           <p className="bg-[#f0f0f0] text-[#222] p-[6px] text-lg">
             <BsFillGridFill />
@@ -25,7 +25,7 @@ const ProductsTop = () => {
             <option value="100">100</option>
           </select>
         </div>
-        <div className="text-[#5d5d5d]">
+        <div className="text-[#5d5d5d] mt-5 md:mt-0">
           <span className="italic">Sort by:</span>
           <select className="border p-[6px] border-[#cacaca] ml-[5px] focus:outline-none">
             <option value="Default sorting">Default sorting</option>
