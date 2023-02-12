@@ -46,7 +46,9 @@ const FAQ = () => {
   return (
     <div className="max-w-6xl mx-auto p-4">
       <div>
-        <h1 className="uppercase text-5xl font-bold text-center my-10 text-[#333333]">Frequently questions</h1>
+        <h1 className="uppercase text-5xl font-bold text-center my-10 text-[#333333]">
+          Frequently questions
+        </h1>
         <div>
           <h4 className="text-[#333333] text-base font-normal pb-[10px]">
             Below are frequently asked questions, you may find the answer for

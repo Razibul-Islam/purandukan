@@ -1,8 +1,9 @@
-import "./App.css";
+
 import AboutUs from "./Pages/About/AboutUs";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Error from "./Pages/Error/Error";
 import FAQ from "./Pages/FAQ/FAQ";
+import Shop from "./Pages/Shop/Shop";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <AboutUs /> */}
       {/* <Error /> */}
       {/* <ContactUs /> */}
-      <FAQ/>
+      {/* <FAQ/> */}
+      <Shop />
     </div>
   );
 }

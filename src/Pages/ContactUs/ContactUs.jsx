@@ -72,7 +72,9 @@ const ContactUs = () => {
 
           <div className="mt-8 lg:w-full lg:mx-6">
             <div className="w-full px-0 lg:px-8 py-10 mx-auto overflow-hidden ">
-              <h1 className="text-2xl font-normal text-[#333333]">CONTACT US</h1>
+              <h1 className="text-2xl font-normal text-[#333333]">
+                CONTACT US
+              </h1>
 
               <form className="mt-4">
                 <div className="flex gap-5 lg:gap-10">
