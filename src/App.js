@@ -1,18 +1,10 @@
-
-import AboutUs from "./Pages/About/AboutUs";
-import ContactUs from "./Pages/ContactUs/ContactUs";
-import Error from "./Pages/Error/Error";
-import FAQ from "./Pages/FAQ/FAQ";
-import Shop from "./Pages/Shop/Shop";
+import { RouterProvider } from "react-router-dom";
+import router from "./Router/Router/Router";
 
 function App() {
   return (
     <div>
-      {/* <AboutUs /> */}
-      {/* <Error /> */}
-      {/* <ContactUs /> */}
-      {/* <FAQ/> */}
-      <Shop />
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

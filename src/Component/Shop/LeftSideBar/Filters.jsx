@@ -9,13 +9,13 @@ const Filters = () => {
       <div className="p-[15px]">
         <div className="mb-4">
           <label
-            class="form-check-label inline-block text-gray-800"
-            for="TopRated"
+            className="form-check-label inline-block text-gray-800"
+            htmlFor="TopRated"
           >
             Top Rated
           </label>
           <input
-            class="h-4 w-4 mt-1 align-top  ml-[15px] cursor-pointer"
+            className="h-4 w-4 mt-1 align-top  ml-[15px] cursor-pointer"
             type="checkbox"
             value=""
             id="TopRated"
@@ -23,13 +23,13 @@ const Filters = () => {
         </div>
         <div className="mb-4">
           <label
-            class="form-check-label inline-block text-gray-800"
-            for="SaleItems"
+            className="form-check-label inline-block text-gray-800"
+            htmlFor="SaleItems"
           >
             Sale Items
           </label>
           <input
-            class="h-4 w-4 mt-1 align-top  ml-[15px] cursor-pointer"
+            className="h-4 w-4 mt-1 align-top  ml-[15px] cursor-pointer"
             type="checkbox"
             value=""
             id="SaleItems"

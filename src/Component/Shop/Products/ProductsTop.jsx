@@ -1,18 +1,25 @@
 import React from "react";
 import { BsFillGridFill } from "react-icons/bs";
 import { FaListUl } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductsTop = () => {
   return (
     <div className="border-t border-[#ededed]">
       <div className="py-[25px] flex items-center justify-between flex-wrap">
         <div className="flex">
-          <p className="bg-[#f0f0f0] text-[#222] p-[6px] text-lg">
+          <Link
+            to="/shop/grid"
+            className="bg-[#f0f0f0] text-[#222] p-[6px] text-lg"
+          >
             <BsFillGridFill />
-          </p>
-          <p className="bg-[#222]  text-lg text-white p-[6px]">
+          </Link>
+          <Link
+            to="/shop/list"
+            className="bg-[#222]  text-lg text-white p-[6px]"
+          >
             <FaListUl className="" />
-          </p>
+          </Link>
         </div>
         <div className="text-[#5d5d5d]">
           <span className="italic">View:</span>

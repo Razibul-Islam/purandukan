@@ -8,19 +8,19 @@ import product2 from "../../../assets/product1-2.jpg";
 const ProductHorizontalCard = () => {
   return (
     <>
-      <div class="rounded-lg lg:flex md:flex card mb-[35px]">
+      <div className="rounded-lg lg:flex md:flex card mb-[35px]">
         <img
-          class="object-cover w-full md:w-1/2 lg:w-1/3 image1"
+          className="object-cover w-full md:w-1/2 lg:w-1/3 image1"
           src={product1}
           alt="ProductPhoto"
         />
         <img
-          class="object-cover w-full md:w-1/2 lg:w-1/3 image2"
+          className="object-cover w-full md:w-1/2 lg:w-1/3 image2"
           src={product2}
           alt="ProductPhoto"
         />
-        <div class="px-6 py-4">
-          <h4 class="py-[10px] text-xl uppercase font-bold tracking-tight border-b border-b-[#ededed] text-[#3b3d42] hover:text-[#f79800] cursor-pointer">
+        <div className="px-6 py-4">
+          <h4 className="py-[10px] text-xl uppercase font-bold tracking-tight border-b border-b-[#ededed] text-[#3b3d42] hover:text-[#f79800] cursor-pointer">
             Sale SMALL SHIRT DRESS WITH SMALL LACES
           </h4>
           <div className="flex justify-start items-center py-[10px] text-[#5d5d5d] text-xs">
@@ -47,12 +47,12 @@ const ProductHorizontalCard = () => {
               </span>
             </p>
           </div>
-          <p class="mb-[15px] text-sm leading-normal text-justify text-sky-900">
+          <p className="mb-[15px] text-sm leading-normal text-justify text-sky-900">
             Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen
             tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.
           </p>
           <div className="flex items-center flex-wrap">
-            <button class="px-4 py-2 text-[0.9rem] rounded-[3px] font-bold bg-[#f79800] text-[#fefefe] hover:bg-[#0f99de] hover:text-[#fefefe] uppercase duration-300 ease-out">
+            <button className="px-4 py-2 text-[0.9rem] rounded-[3px] font-bold bg-[#f79800] text-[#fefefe] hover:bg-[#0f99de] hover:text-[#fefefe] uppercase duration-300 ease-out">
               Add To Card
             </button>
             <ol className="flex text-[#5d5d5d] duration-150 text-base md:mt-5 lg:mt-0">
